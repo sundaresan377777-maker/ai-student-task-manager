@@ -1,0 +1,6 @@
+{
+  "name": "AI Student Task Manager",
+  "description": "Full-stack student task management system with real-time stats, SQLite persistence, and priority-driven academic tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
