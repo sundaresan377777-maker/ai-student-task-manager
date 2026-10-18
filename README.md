@@ -1,20 +1,72 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
 
-# Run and deploy your AI Studio app
+# AI Student Task Manager
 
-This contains everything you need to run your app locally.
+An AI-powered student task management application designed to help students organize academic tasks, manage deadlines, set priorities, and track their progress.
 
-View your app in AI Studio: https://ai.studio/apps/c3dfd3a2-1906-464d-9fbc-bee194cae295
+## Features
+
+* Create and manage student tasks.
+* Add task descriptions and due dates.
+* Assign task priorities.
+* Track task completion status.
+* Store task data using SQLite.
+* Responsive web interface.
+* REST API built with Express.js.
+
+## Technologies Used
+
+* **Frontend:** React, Vite
+* **Backend:** Node.js, Express.js, TypeScript
+* **Database:** SQLite
+* **Build Tool:** Vite
+
+## Live Demo
+
+Add your deployed Render website URL here.
+
+## GitHub Repository
+
+https://github.com/sundaresan377777-maker/ai-student-task-manager
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+* Node.js
+* npm
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sundaresan377777-maker/ai-student-task-manager.git
+   ```
+
+2. Open the project directory:
+
+   ```bash
+   cd ai-student-task-manager
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+
+4. Start the application:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local address displayed in your terminal.
+
+## Purpose
+
+This project demonstrates full-stack web development, REST API integration, database operations, and task management functionality.
+
+## Author
+
+Developed as a student project.
